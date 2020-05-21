@@ -3,9 +3,9 @@ MAINTAINER Cloudopt <support@cloudopt.net>
 
 COPY settings-docker.xml /usr/share/maven/ref/
 
-RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 
-RUN sudo apt-get install -y nodejs
+RUN apt-get install -y nodejs
 
 RUN npm i -g npm
 
