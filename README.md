@@ -10,3 +10,5 @@ We also provide the jdk10 version, which only needs to change the version number
 `cloudopt/cloudopt-next-docker:jdk8`
 
 `cloudopt/cloudopt-next-docker:jdk10`
+
+`cloudopt/cloudopt-next-docker:jdk11-openj9-node12`
